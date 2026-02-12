@@ -1,0 +1,9 @@
+node_modules/
+client/node_modules/
+.env
+dist/
+*.log
+.DS_Store
+
+# Real company knowledge (optional): keep your data out of the repo
+knowledge/company.md
