@@ -191,7 +191,7 @@ Chat AI/
 ├── knowledge/
 │   └── company.example.md
 ├── server/
-│   └── index.js
+│   └── index.js           # Express server
 ├── .env.example
 ├── .gitignore
 ├── package.json
