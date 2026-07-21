@@ -69,7 +69,7 @@ function App() {
   };
 
   return (
-    <div className="app">
+    <div className="app notranslate" translate="no" lang="en">
       <header className="header">
         <div className="logo">
           <span className="logo-icon">◇</span>
@@ -127,6 +127,12 @@ function App() {
             onKeyDown={handleKeyDown}
             rows={1}
             disabled={loading}
+            dir="ltr"
+            lang="en"
+            translate="no"
+            autoCapitalize="off"
+            autoCorrect="off"
+            spellCheck={false}
           />
           <button
             type="button"
